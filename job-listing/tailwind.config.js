@@ -4,6 +4,7 @@ module.exports = {
     theme: {
       colors:{
         cyan : 'hsl(180, 29%, 50%)',
+        dark_cyan : 'hsl(180, 29%, 30%)',
         light_gray_cyan : 'hsl(180, 52%, 96%)',
         very_light_gray_cyan : 'hsl(180, 31%, 95%)',
         dark_gray_cyan : 'hsl(180, 8%, 52%)',
@@ -13,7 +14,9 @@ module.exports = {
       },
     },
     variants: {
-      extend: {},
+      extend: {
+        backgroundColor: ['active'],
+      },
     },
     plugins: [],
 }
