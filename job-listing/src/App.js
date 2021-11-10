@@ -9,8 +9,6 @@ function App() {
 
   const [filterValue, setFilterValue] = useState(new Set())
 
-  console.log(filterValue)
-
   //filter job lists
   function filterFunction(data, filterVal){
     return data.filter((job) => filterVal.includes(job.role) || 
